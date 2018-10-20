@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+.pergunta{
+    color: blue;
+    
+}
+body{
+    background-color: azure;
+}
+b{
+    color: darkviolet;
+}
+p{
+   color: dodgerblue;
+}
+#diferente{
+    background-color:deepskyblue;
+    color:black;
+}
+div{
+    width: auto;
+    height: auto;
+}
+h1{
+    background-color: lightcyan;
+    color: darkblue;
+        width: 165px;
+    margin:0;
+}
+.vermelho{
+    color:red;
+}
+#azul{
+    color:blue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html "uft-8">
+    <head>
+        <meta charset="uft-8"/>
+        <link type ="text/css" rel= "stylesheet" href="CSS.css"/>
+        
+    </head>
+    <body>
+        <div>
+            <header></header>
+            <main>
+                <h1>Perguntas</h1>
+                <h3 class="pergunta">a) É possível sobrepor à aparência (estilo) definida em regras CSS anteriores, mais genéricas, por regras mais espeecíficas? Se possível, essa técnica tem nome? Exemplifique.</h3>
+                <p class="resposta">Sim é possível, em situações que envolvam regras aplicadas a um mesmo descritor HTML. À essa técnica se dá o nome de <b>Override</b>.</p>
+                <h3 class="pergunta">b) Caso definíssemos uma regra CSS mais geral para cabeçalhos de nível 1, 2 e 3, seguida de outra somente para o nível 1, como seria o comportamento do navegador? Descreva os vários cenários possíveis e o comportamento do navegador em cada uma delas.</h3>
+                <p></p>
+                <h3 class="pergunta"> c) É sempre interessante otimizar o código CSS? Cite algumas vantagens.</h3>
+                <p>Sim, pois assim é possível reuduzir o número de linhas de um código html evitando um código muito extenso além de economizar armanezamento. Sendo possível utilizar a mesma estrutura para vários códigos implementando o código CSS.</p>
+                <h3 class="pergunta">d) Defina herança em CSS. Utilize, também imagens para ilustraar tais definições.</h3>
+                <p>
+                    Considere a regra CSS mostrada a seguir, destinada a definir a cor do texto de um elemento <i>p</i> (parágrafo) que contém um elemento <i>em</i> (ênfase). Ou seja, o elemento <i>em</i> é filho do elemento <i>p</i>.
+                    
+                </p>
+                <img src="imagens/css.png"/>
+                <img src="imagens/html.png"/>
+                <p>A renderização do parágrafo se dá como mostrado a seguir.</p>
+                <p class="vermelho">Texto do parágrafo com um <em id="azul">elemento EM</em> nele contido.</p>
+                <p>Notar que embora não tenhamos definido explicitamente uma cor para o elemento em ele foi renderizado na cor vermelha. Isso se deu devido a herança CSS. O que ocorreu foi que o elemento em herdou a propriedade color de seu elemento-pai p.</p>
+                <p>E, se quiséssemos que o elemento em fosse na cor azul? Nesse caso teríamos que anular o efeito da herança, definindo explicitamente a cor azul para em, como mostrado a seguir.</p>
+                <img src="imagens/img.png"/>
+                <p>A renderização do parágrafo se dá como mostrado a seguir.</p>
+                <p class="vermelho">Texto do parágrafo com um elemento EM nele contido.</p>
+                
+                <h3 class="pergunta">e) Podemos sobrescrever características herdadas todas as vezes que desejamos deixá-la mais específica?</h3>
+                <p id="diferente">Se você deseja anular a herança herdada ou até mesmo deixá-la mais específica, com a técnica de <b>override</b> você consegue, basta adicionar uma nova regra selecionando apenas a tag que você deseja alterar e aplicar uma aparência específica no arquivo css à mesma.</p>
+            </main>
+            <footer></footer>
+        </div>
+    </body>
+</html>
